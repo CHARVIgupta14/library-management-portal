@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { issueBook, returnBook } from "../services/bookService";
-import IssueModal from "./IssueModal";
+import { issueBook, returnBook } from "../services/bookService.js";
+import IssueModal from "./IssueModal.jsx";
 
 function StudentBookTable({ books, loading, onRefresh, showToast }) {
   const [actionLoadingId, setActionLoadingId] = useState(null);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
-import SearchBooks from "../components/SearchBooks";
-import StudentBookTable from "../components/StudentBookTable";
-import { getBooks } from "../services/bookService";
+import SearchBooks from "../components/SearchBooks.jsx";
+import StudentBookTable from "../components/StudentBookTable.jsx";
+import { getBooks } from "../services/bookService.js";
 
 function StudentPage({ onBack, showToast }) {
   const [books, setBooks] = useState([]);

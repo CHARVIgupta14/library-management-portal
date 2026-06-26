@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { issueBook, returnBook, deleteBook } from "../services/bookService";
-import IssueModal from "./IssueModal";
+import { issueBook, returnBook, deleteBook } from "../services/bookService.js";
+import IssueModal from "./IssueModal.jsx";
 
 function formatDate(dateStr) {
   if (!dateStr) return "-";

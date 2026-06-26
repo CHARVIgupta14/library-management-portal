@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from "react";
-import Navbar from "./components/Navbar";
-import RoleSelect from "./components/RoleSelect";
-import StudentPage from "./pages/StudentPage";
-import StaffPage from "./pages/StaffPage";
+import Navbar from "./components/Navbar.jsx";
+import RoleSelect from "./components/RoleSelect.jsx";
+import StudentPage from "./pages/StudentPage.jsx";
+import StaffPage from "./pages/StaffPage.jsx";
 import "./App.css";
 
 function App() {
